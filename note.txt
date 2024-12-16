@@ -1,0 +1,28 @@
+J'aimerais lancer mon projet sur mon iphone.
+Pour cela :
+
+1. AltStore : Installer des Apps iOS depuis un PC Windows
+AltStore est une solution qui permet d'installer des applications iOS sans passer par l'App Store. Cela fonctionne à partir d’un PC Windows et est compatible avec iOS.
+
+Fonctionnement d’AltStore :
+AltStore s’installe sur ton iPhone en tant que magasin d'applications alternatif.
+Une fois configuré, il permet d’installer des fichiers .ipa directement sur ton iPhone.
+Étapes pour Utiliser AltStore :
+Télécharger AltStore pour Windows
+Depuis altstore.io, télécharge et installe AltServer sur ton PC.
+
+Installer AltStore sur ton iPhone :
+
+Connecte ton iPhone à ton PC avec un câble USB.
+Lance AltServer sur ton PC.
+Dans la barre des tâches (Windows), clique sur l’icône AltServer et sélectionne Install AltStore.
+Choisis ton appareil iOS.
+Préparer ton Application Flutter :
+
+Compile ton projet Flutter pour iOS à l’aide d’un service cloud comme Codemagic (voir solution précédente).
+Récupère le fichier .ipa généré.
+Installer l'Application sur iPhone :
+
+Lance AltStore sur ton iPhone.
+Ajoute ton fichier .ipa en utilisant "My Apps" dans AltStore.
+L’application sera installée sur ton iPhone.
